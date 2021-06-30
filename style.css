@@ -1,0 +1,70 @@
+body {margin:0;}
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: black;
+position: fixed;
+top: 0;
+width: 100%;
+}
+#grad1 {
+height: 250px;
+width:100%;
+background-color: #1fc8db;
+background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+color:white;
+opacity:0.95;
+}
+table, th, td {
+border: 2px solid black;
+padding: 15px;
+}
+table {
+	border-collapse: collapse;
+}
+table {
+width: 95%;
+}
+th { color: black;
+text-align: center;
+background-color: salmon;
+}
+td{
+text-align: left;
+color: darkred;
+font-size: 17px;
+}
+input[type=text], input[type=password] {
+width: 25%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+box-sizing: border-box;
+}
+li {
+float: left;
+font-size: 20px;
+}
+li a {
+display: block;
+color: white;
+text-align: center;
+padding: 28px 35px;
+text-decoration: none;
+}
+li a:hover:not(.active) {
+background-color: #111;
+}
+.active {
+background-color:darkslateblue;
+}
+button {
+background-color: #4CAF50;
+color: white;
+padding: 15px 15px ;
+cursor: pointer;
+width: 10%;
+}
